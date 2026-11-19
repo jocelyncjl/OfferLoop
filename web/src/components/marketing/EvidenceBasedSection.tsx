@@ -18,10 +18,10 @@ export function EvidenceBasedSection() {
                         </h2>
 
                         <div className="mt-6 space-y-3 text-base font-medium leading-relaxed text-slate-600 sm:text-xl">
-                            <p>No fake experience. No invented skills.</p>
-                            <p>No legal visa advice.</p>
+                            <p>No exaggerated claims. No AI hallucinations.</p>
+                            <p>No invented skills.</p>
                             <p>
-                                Only suggestions based on your real CV, projects, and job description.
+                                Only suggestions grounded in your real CV, actual projects, and what the JD truly requires.
                             </p>
                         </div>
                     </div>

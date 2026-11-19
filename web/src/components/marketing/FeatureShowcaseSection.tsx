@@ -24,38 +24,76 @@ export function FeatureShowcaseSection() {
     return (
         <section
             id="feature"
-            className="bg-[#F3F8EC] px-5 pb-10 sm:px-8 lg:px-16 "
+            className="bg-[#F3F8EC] px-5 pb-10 sm:px-8 lg:px-16"
         >
             <div className="mx-auto max-w-7xl px-4 sm:px-12 py-10 sm:py-12">
                 <p className="text-base font-medium text-slate-500 sm:text-lg">
-                    See how GradFit works for your application
+                    See how OfferLoop works for your application
                 </p>
 
-                <div className="mt-12 grid grid-cols-1 items-center gap-10 border-b border-slate-200/70 pb-14 sm:grid-cols-2 sm:gap-16">
-                    <JDAnalysisCard />
+                {/*
+                  Staggered layout:
+                  Row 1 → [card LEFT]   [text RIGHT, starts 80px lower]
+                  Row 2 → [text LEFT]   [card RIGHT, starts 80px lower]
+                  Row 3 → [card LEFT]   [text RIGHT, starts 80px lower]
+                  On mobile: single column, natural flow, no offset.
+                */}
+                <div className="mt-12 hidden sm:grid sm:grid-cols-2 sm:gap-x-16">
 
+                    {/* ── Row 1: card left · text right ── */}
+                    <div>
+                        <JDAnalysisCard />
+                    </div>
+                    <div className="pt-20">
+                        <FeatureCopy
+                            title="Understand the role in seconds"
+                            body="We extract the skills, level, work mode, and location so you know exactly what matters before you spend a minute writing."
+                        />
+                    </div>
+
+                    {/* ── Row 2: text left · card right ── */}
+                    <div className="pt-20 mt-6">
+                        <FeatureCopy
+                            title="Map requirements to your evidence"
+                            body="We match your CV and projects to the job and highlight what you've proven — and what still needs work."
+                        />
+                    </div>
+                    <div className="mt-6">
+                        <EvidenceMatchingCard />
+                    </div>
+
+                    {/* ── Row 3: card left · text right ── */}
+                    <div className="mt-6">
+                        <QualityScoreCard />
+                    </div>
+                    <div className="pt-20 mt-6">
+                        <FeatureCopy
+                            title="Get your application quality score"
+                            body="Know if you should Apply Now, Tailor First, or choose a different role — before you send anything."
+                        />
+                    </div>
+
+                </div>
+
+                {/* Mobile: single-column, no stagger */}
+                <div className="mt-10 flex flex-col gap-10 sm:hidden">
+                    <JDAnalysisCard />
                     <FeatureCopy
                         title="Understand the role in seconds"
-                        body="We extract the skills, level, work mode, and location so you know what matters."
+                        body="We extract the skills, level, work mode, and location so you know exactly what matters before you spend a minute writing."
                     />
-                </div>
-
-                <div className="grid grid-cols-1 items-center gap-10 border-b border-slate-200/70 py-14 sm:grid-cols-2 sm:gap-16">
                     <FeatureCopy
                         title="Map requirements to your evidence"
-                        body="We match your cv and projects to the job and hightlight what you've proven."
+                        body="We match your CV and projects to the job and highlight what you've proven — and what still needs work."
                     />
-
                     <EvidenceMatchingCard />
-                </div>
-
-                <div className="grid grid-cols-1 items-center gap-10 sm:grid-cols-2 sm:gap-16">
                     <QualityScoreCard />
                     <FeatureCopy
                         title="Get your application quality score"
-                        body="Know if you should Apply Now, Tailor First, or choose a different role."
+                        body="Know if you should Apply Now, Tailor First, or choose a different role — before you send anything."
                     />
                 </div>
+
             </div>
         </section>
     );
