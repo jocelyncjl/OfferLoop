@@ -1,43 +1,36 @@
 # Fit Reports UI Design
 
-Fit Reports compares analyzed jobs with the user's CV and project evidence, then gives an application recommendation.
+A Fit Report compares an analyzed job with one of the user's CVs. Its focus is what to do before applying and how to improve the CV.
 
-## Create Fit Report
+### Fit Reports list
 
-![Create Fit Report](./images/fit-report-create.png)
+| Desktop | Mobile |
+| --- | --- |
+| ![Fit Reports list desktop](./images/fit-reports-list.png) | ![Fit Reports list mobile](./images/fit-reports-list-mobile.png) |
 
-The creation flow lets the user review:
+- Search, recommendation filter and sorting.
+- Job and company, score and recommendation, CV used, generated date.
+- View report and a menu: create with another CV, save to Applications, download PDF, share, delete.
 
-- The selected analyzed job.
-- The CV to compare against the job.
-- Automatically matched project evidence.
-- A summary of the report contents.
-- The AI credit that will be used.
+### Create Fit Report
 
-The user can change the job, CV, or evidence before selecting Generate Fit Report.
+| Desktop | Mobile |
+| --- | --- |
+| ![Create Fit Report desktop](./images/fit-report-create.png) | ![Create Fit Report mobile](./images/fit-report-create-mobile.png) |
 
-## Fit Report result
+- Step 1: the analyzed job.
+- Step 2: the CV to compare. The closest CV is marked Recommended.
+- Evidence comes only from the selected CV.
 
-![Fit Report result](./images/fit-report-result.png)
+### Fit Report result
 
-The result page includes:
+| Desktop | Mobile |
+| --- | --- |
+| ![Fit Report result desktop](./images/fit-report-result.png) | ![Fit Report result mobile](./images/fit-report-result-mobile.png) |
 
-- Application Quality Score and recommendation.
-- Why this result: strong, needs stronger evidence, and missing skills.
-- Evidence Match grouped by matched, weak, and missing evidence.
-- Role Fit for level, location, graduate / junior signals, and sponsorship.
-- Before-you-apply actions.
-- Evidence-based CV suggestions.
-- Actions to save to Applications, download PDF, share, or re-analyze.
-
-## Fit Reports list
-
-![Fit Reports list](./images/fit-reports-list.png)
-
-The list page includes:
-
-- Search and recommendation filters.
-- Newest-first sorting.
-- List and grid view controls.
-- Job, company, score, recommendation, CV, generated date, and actions.
-- Pagination and report actions such as create with another CV, save to Applications, download, share, and delete.
+- Header: score, recommendation, summary, Save to Applications and Download PDF.
+- **1 Before you apply** (highlighted): one step at a time with numbered and arrow paging, and Mark as done.
+- **2 CV suggestions** (highlighted): one suggestion at a time with numbered and arrow paging. Each shows current text, suggested text, why it helps and the source in the CV, with Copy and Mark as applied. Users edit their CV themselves.
+- Why this result: strong, needs stronger evidence, missing.
+- Evidence match: counts plus every requirement and the CV line that supports it.
+- No separate Role fit section.

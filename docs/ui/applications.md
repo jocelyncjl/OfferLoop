@@ -1,44 +1,35 @@
 # Applications UI Design
 
-Applications tracks saved jobs, application status, fit scores, and next actions.
+Applications tracks every application, its status and its next step.
 
-## Applications list
+### Applications list
 
-![Applications list](./images/applications-list.png)
+| Desktop | Mobile |
+| --- | --- |
+| ![Applications list desktop](./images/applications-list.png) | ![Applications list mobile](./images/applications-list-mobile.png) |
 
-The list page includes:
+- Summary counts and status filter chips: All, Saved, Ready to Apply, Applied, Interview, Offer, Rejected.
+- Search and sorting by next step due.
+- Role and company, status, Fit Report score, applied date, next step (overdue in red), Details and a more-actions menu.
+- On mobile, the Track tab switches between Applications and Follow-ups.
 
-- Application summary counts.
-- Search, status filtering, and sorting.
-- List and calendar view controls.
-- Role, company, status, fit report, applied date, next step, and actions.
-- Pagination.
-- Row actions for viewing the Fit Report, adding a follow-up, or deleting an application.
-- Add Application primary action.
+### Application detail
 
-## Application detail
+| Desktop | Mobile |
+| --- | --- |
+| ![Application detail desktop](./images/application-detail.png) | ![Application detail mobile](./images/application-detail-mobile.png) |
 
-![Application detail](./images/application-detail.png)
+- Header with status, Fit Report score, CV used, applied date and an Update status menu.
+- Next action (highlighted): the current follow-up, Mark done and Add follow-up.
+- Application details, linked Fit Report, timeline, completed actions and notes.
 
-The detail page includes:
+## Add follow-up
 
-- Job and company header with status, fit score, selected CV, and applied date.
-- Application Details card.
-- Linked Fit Report card.
-- Current Next Action panel with due date, notes, and completion action.
-- Application Timeline.
-- Next Actions History.
-- Notes with edit action.
-- Update Status control.
+| Form | Calendar open |
+| --- | --- |
+| ![Add follow-up](./images/application-add-follow-up.png) | ![Add follow-up with calendar](./images/application-add-follow-up-calendar.png) |
 
-## Add Follow-up drawer
-
-![Add Follow-up drawer](./images/application-add-follow-up.png)
-
-The Add Follow-up drawer is opened from an application detail page and includes:
-
-- The related application.
-- Action selection, such as checking application status, preparing for assessment, preparing for interview, sending a thank-you message, or another action.
-- Due date picker.
-- Optional note with a 300-character limit.
-- Cancel and Add Follow-up actions.
+- Related application.
+- Action dropdown: check application status, follow up with recruiter, prepare for interview, prepare for assessment, send thank-you message, or Other. With Other, the note describes the action and becomes required.
+- Due date with a month calendar and quick picks: Tomorrow, In 3 days, In 1 week.
+- Optional note, up to 300 characters.

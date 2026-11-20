@@ -1,41 +1,34 @@
 # Dashboard UI Design
 
-Dashboard has two main states, based on the user's available data.
+Dashboard has two states, based on whether the user has data yet. Desktop uses the sidebar shell; mobile uses a top bar and a bottom tab bar (Home, CV, Analyze, Reports, Track).
 
-## New user state
+### New user
 
-![Dashboard for a new user](./images/dashboard-new-user-applications-sidebar.png)
+| Desktop | Mobile |
+| --- | --- |
+| ![New user desktop](./images/dashboard-new-user.png) | ![New user mobile](./images/dashboard-new-user-mobile.png) |
 
-The new-user dashboard guides the user through the setup process:
+The new-user dashboard shows:
 
-1. Add a CV.
-2. Add project evidence.
-3. Analyze the first job description.
-4. Get the first fit report.
+- Your next step: add your CV.
+- Complete your setup: add your CV (with experience and projects), analyze your first JD, get your first Fit Report, save it to Applications.
+- Empty summary cards.
 
-It also shows empty-state summary cards fo r fit score, applications, interviews, and upcoming actions.
+### Existing user
 
-## Existing user state
+| Desktop | Mobile |
+| --- | --- |
+| ![Existing user desktop](./images/dashboard-existing-user.png) | ![Existing user mobile](./images/dashboard-existing-user-mobile.png) |
 
-![Dashboard for an existing user](./images/dashboard-existing-user-applications-sidebar.png)
+The existing-user dashboard shows:
 
-The existing-user dashboard summarizes active job-search work:
-
-- Next follow-up action.
-- Items needing attention.
-- Fit report, application, interview, and upcoming-action statistics.
-- Recent fit reports.
-- Applications grouped by status.
-- Suggested evidence improvement.
+- Your next step, with previous and next controls and Mark as done.
+- Needs attention: overdue and upcoming follow-ups.
+- Summary cards. The Applications card breaks down counts by status.
+- Recent Fit Reports and applications by status.
 
 ## Shared layout
 
-Both states use the same application shell:
-
-- Left sidebar navigation.
-- Top welcome header.
-- Notification action.
-- New Analysis primary action.
-- AI usage card.
-- Upgrade card.
-- User profile area.
+- Sidebar navigation grouped as Overview, Prepare, Analyze and Track, with a very light green background.
+- Follow-ups shows a red badge with the number of overdue follow-ups.
+- Notification action, New analysis action and user profile area.

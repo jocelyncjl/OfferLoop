@@ -1,17 +1,15 @@
 # Follow-ups UI Design
 
-![Follow-ups list](./images/follow-ups-list.png)
+### Follow-ups
 
-Follow-ups helps users stay on top of actions related to submitted applications.
+| Desktop | Mobile |
+| --- | --- |
+| ![Follow-ups desktop](./images/follow-ups-list.png) | ![Follow-ups mobile](./images/follow-ups-list-mobile.png) |
 
-The page includes:
+Follow-ups shows every next step across all applications, by due date. Follow-ups are added and edited from an application; this page is for reviewing and completing them.
 
-- Back to Applications navigation.
+- Desktop: its own sidebar item with a red badge for overdue items. Mobile: a switch inside the Track tab.
+- Summary: overdue, due today, rest of this week, done this week.
 - Open and Completed tabs.
-- Weekly attention summary.
-- Follow-ups grouped into Overdue, Today, This Week, Later, and Completed.
-- Related role, company, and application status.
-- Follow-up action and due date.
-- Mark done action.
-- View Application link.
-- Expandable completed follow-ups section.
+- Groups: Overdue, Today, This week, Later.
+- Each item: action, role and company, application status, due date, Mark done and View application.

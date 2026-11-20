@@ -1,29 +1,26 @@
 # JD Analyzer UI Design
 
-JD Analyzer lets users paste a job description and receive AI-powered insights.
+JD Analyzer lets users paste a job description and see what the role really asks for.
 
-## Empty state
+### Before analysis
 
-![JD Analyzer empty state](./images/jd-analyzer-empty-state.png)
-
-The empty state includes:
+| Desktop | Mobile |
+| --- | --- |
+| ![Before analysis desktop](./images/jd-analyzer-empty-state.png) | ![Before analysis mobile](./images/jd-analyzer-empty-state-mobile.png) |
 
 - Job description text area with a 6,000-character limit.
 - Optional job URL.
-- Optional expandable job details: company, role title, location, and work mode.
+- Optional job details: company, role title, location and work mode.
 - Analyze JD action.
-- Empty JD Summary panel explaining the analysis capabilities.
 
-## Analyzed state
+### Analyzed
 
-![JD Analyzer analyzed state](./images/jd-analyzer-analyzed.png)
+| Desktop | Mobile |
+| --- | --- |
+| ![Analyzed desktop](./images/jd-analyzer-analyzed.png) | ![Analyzed mobile](./images/jd-analyzer-analyzed-mobile.png) |
 
-The analyzed state displays:
-
-- The pasted job description and re-analyze action.
-- Role overview, experience level, location, and work mode.
-- Required skills and preferred skills.
+- Overview: role, company, experience level, location, work mode.
+- Required and preferred skills.
 - Top responsibilities.
-- Graduate / junior signals.
-- Sponsorship clues.
-- Save status and a link to Fit Reports.
+- Seniority signals and visa sponsorship.
+- Saved to analyzed jobs, with a Create Fit Report action.

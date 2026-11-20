@@ -1,32 +1,19 @@
 # CV Manager UI Design
 
-CV Manager has two main states, based on whether the user has saved any CVs.
+Projects and experience are part of the CV, so there is no separate Projects / Evidence module.
 
-## New user state
+### No CV yet
 
-![CV Manager for a new user](./images/cv-manager-new-user-dashboard-sidebar.png)
+| Desktop | Mobile |
+| --- | --- |
+| ![No CV yet desktop](./images/cv-manager-new-user.png) | ![No CV yet mobile](./images/cv-manager-new-user-mobile.png) |
 
-The empty state allows the user to:
+The empty state lets the user upload a CV file (PDF, DOCX, TXT, up to 10MB) or paste CV text.
 
-- Upload a CV file.
-- Paste CV text.
-- See supported formats: PDF, DOCX, and TXT.
-- See the 10MB upload limit.
-- Learn why a CV is needed for fit analysis.
+### Your CVs
 
-## Existing user state
+| Desktop | Mobile |
+| --- | --- |
+| ![Your CVs desktop](./images/cv-manager-existing-user.png) | ![Your CVs mobile](./images/cv-manager-existing-user-mobile.png) |
 
-![CV Manager for an existing user](./images/cv-manager-existing-user-dashboard-sidebar.png)
-
-The existing state shows:
-
-- Base CV marked as the default for new analyses.
-- Tailored CV versions for specific roles.
-- CV type, description, and last-updated date.
-- View and overflow actions for each CV.
-- Add CV primary action.
-- Guidance for selecting the right CV during job analysis.
-
-## Shared layout
-
-Both states use the shared application shell with sidebar navigation, notification action, AI usage card, upgrade card, and user profile area.
+The list shows the Base CV (default for new analyses) and tailored versions, with a short description, last-updated date and a more-actions menu. There is no CV detail page.
