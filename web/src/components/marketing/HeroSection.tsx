@@ -5,21 +5,20 @@ export function HeroSection() {
         <section className="relative overflow-hidden px-5 pt-8 sm:px-8 sm:pt-10">
             <div className="mx-auto flex w-full flex-col items-center text-center">
                 <div className="mb-6 inline-flex max-w-full items-center gap-2 rounded-full bg-green-50 px-3 py-2 text-xs font-medium text-green-800 shadow-xs sm:px-4 sm:text-sm">
-                    <span>🇮🇪</span>
                     <span className="truncate">
-                        Built for Ireland-based early-career tech candidates 
+                        Built for every tech job seeker, from new grads to senior engineers
                     </span>
                 </div>
 
                 <h1 className="anton-regular max-w-7xl text-[2.75rem] font-black scale-y-80 uppercase text-slate-950 sm:text-6xl md:text-7xl lg:text-9xl">
-                    Know what to apply for.
-                    <span className="mt-3 block text-[#a0be73]">Prove why you fit.</span>
+                    from JD to offer
+                    <span className="mt-3 block text-[#a0be73]">In one loop.</span>
                 </h1>
 
                 <div className="mt-6 h-1.5 w-16 rounded-full bg-[#a0be73] sm:mt-7"/>
 
                 <p className="mt-6 max-w-2xl text-base font-medium text-slate-500 sm:text-2xl">
-                    One workspace for Ireland tech graduates.
+                    Analyze job descriptions, tailor your CV, track every application and never miss a follow-up.
                 </p>
 
                 <div className="mt-8 flex w-full justify-center">
@@ -27,7 +26,7 @@ export function HeroSection() {
                         href="/dashboard"
                         className="inline-flex max-w-2xs items-center justify-center gap-4 rounded-xl bg-green-900 px-6 py-4 text-base font-bold text-white shadow-sm hover:-translate-y-0.5 hover:bg-green-800 hover:shadow-md"
                     >
-                        Start your fit analysis
+                        Start your first loop
 
                         <span aria-hidden="true" className="text-lg leading-none">
                             ➔

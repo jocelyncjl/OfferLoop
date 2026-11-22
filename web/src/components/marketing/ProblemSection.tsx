@@ -7,17 +7,17 @@ type ProblemItem = {
 const problems: ProblemItem[] = [
     {
         number: "01",
-        text: "Is this graduate role actually right?",
+        text: "Is this role actually worth my time?",
         highlight: "right",
     },
     {
         number: "02",
-        text: "Does my CV prove the required skills?",
+        text: "Does my CV prove what this JD asks for?",
         highlight: "skills",
     },
     {
         number: "03",
-        text: "Which project should I show?",
+        text: "Who did I apply to, and who needs a follow-up?",
         highlight: "project",
     },
 ];
@@ -28,7 +28,7 @@ export function ProblemSection() {
         <section className="border-t border-slate-200/60 bg-[#fbfbf8] px-10 py-10 sm:px-16 sm:py-20">
             <div className="mx-auto max-w-6xl">
                 <h2 className="text-center text-xl font-bold text-slate-950 sm:text-2xl">
-                    Stop guessing which roles are worth applying for.
+                Job hunting shouldn't feel like a spreedsheet of lost opportunities.
                 </h2>
 
                 <div className="mt-10 grid grid-cols-1 divide-y divide-slate-100/70 border-y border-slate-200/70 md:grid-cols-3 md:divide-x md:divide-y-0">

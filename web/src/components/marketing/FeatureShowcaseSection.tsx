@@ -46,16 +46,16 @@ export function FeatureShowcaseSection() {
                     </div>
                     <div className="pt-20">
                         <FeatureCopy
-                            title="Understand the role in seconds"
-                            body="We extract the skills, level, work mode, and location so you know exactly what matters before you spend a minute writing."
+                            title="Understand any role in seconds"
+                            body="Paste a job description and get the skills, seniority, work mode and red flags, plus an honest fit score."
                         />
                     </div>
 
                     {/* ── Row 2: text left · card right ── */}
                     <div className="pt-20 mt-6">
                         <FeatureCopy
-                            title="Map requirements to your evidence"
-                            body="We match your CV and projects to the job and highlight what you've proven — and what still needs work."
+                            title="Tailor your CV without making things up"
+                            body="We map each requirement to what you've really done, and suggests sharper bullets for every application."
                         />
                     </div>
                     <div className="mt-6">
@@ -68,8 +68,8 @@ export function FeatureShowcaseSection() {
                     </div>
                     <div className="pt-20 mt-6">
                         <FeatureCopy
-                            title="Get your application quality score"
-                            body="Know if you should Apply Now, Tailor First, or choose a different role — before you send anything."
+                            title="Track every application. Never miss a follow-up."
+                            body="One pipeline for every role, with smart reminders that tell you exactly who to nudge and when."
                         />
                     </div>
 
@@ -79,18 +79,18 @@ export function FeatureShowcaseSection() {
                 <div className="mt-10 flex flex-col gap-10 sm:hidden">
                     <JDAnalysisCard />
                     <FeatureCopy
-                        title="Understand the role in seconds"
-                        body="We extract the skills, level, work mode, and location so you know exactly what matters before you spend a minute writing."
+                        title="Understand any role in seconds"
+                        body="Paste a job description and get the skills, seniority, work mode and red flags, plus an honest fit score."
                     />
                     <FeatureCopy
-                        title="Map requirements to your evidence"
-                        body="We match your CV and projects to the job and highlight what you've proven — and what still needs work."
+                        title="Tailor your CV without making things up"
+                        body="We map each requirement to what you've really done, and suggests sharper bullets for every application."
                     />
                     <EvidenceMatchingCard />
                     <QualityScoreCard />
                     <FeatureCopy
-                        title="Get your application quality score"
-                        body="Know if you should Apply Now, Tailor First, or choose a different role — before you send anything."
+                        title="Track every application. Never miss a follow-up"
+                        body="One pipeline for every role, with smart reminders that tell you exactly who to nudge and when."
                     />
                 </div>
 

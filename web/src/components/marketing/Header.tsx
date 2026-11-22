@@ -13,9 +13,9 @@ export function Header() {
         <header className="mx-auto flex w-full items-center justify-between px-5 py-5 sm:px-16">
             <Link
                 href ="/"
-                className="shrink-0 whitespace-nowrap text-sm font-bold tracking-tight text-slate-950 sm:text-lg"
+                className="shrink-0 whitespace-nowrap text-sm font-bold tracking-tight text-slate-950 sm:text-2lg"
             >
-                Gradfit <span className="text-green-600">Ireland</span>
+                Offer<span className="text-green-600">Loop</span>
             </Link>
 
             <nav className="hidden items-center gap-10 text-xs font-semibold text-slate-700 lg:flex sm:text-base">

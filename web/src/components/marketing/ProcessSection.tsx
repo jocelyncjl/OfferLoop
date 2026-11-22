@@ -10,15 +10,23 @@ const processSteps: ProcessStep[] = [
     },
     {
         number: "02",
-        title: "Add project evidence",
+        title: "Add your JD",
     },
     {
         number: "03",
-        title: "Paste JD",
+        title: "Analyze JD",
     },
     {
         number: "04",
-        title: "Get your fit report",
+        title: "Tailor your CV",
+    },
+    {
+        number: "05",
+        title: "Track & follow up",
+    },
+    {
+        number: "06",
+        title: "Offer",
     },
 ];
 
@@ -30,7 +38,7 @@ export function ProcessSection() {
         >
             <div className="mx-auto max-w-7xl px-4 sm:px-12">
                 <p className="inline-flex rounded-full bg-green-50 px-4 py-2 text-xs font-semibold text-green-700 sm:text-sm">
-                    Simple process. Better applications.
+                    One loop. Every application.
                 </p>
 
                 <div className="mt-8 grid grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr] items-start gap-3 sm:gap-6 sm:mt-16 lg:gap-10">

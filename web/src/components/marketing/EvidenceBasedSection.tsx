@@ -18,7 +18,7 @@ export function EvidenceBasedSection() {
                         </h2>
 
                         <div className="mt-6 space-y-3 text-base font-medium leading-relaxed text-slate-600 sm:text-xl">
-                            <p>No exaggerated claims. No AI hallucinations.</p>
+                            <p>No fake experience.</p>
                             <p>No invented skills.</p>
                             <p>
                                 Only suggestions grounded in your real CV, actual projects, and what the JD truly requires.

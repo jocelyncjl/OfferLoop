@@ -1,10 +1,12 @@
 const trustTags: string[] = [
-    "International graduates",
-    "Ireland-based candidates",
-    "Cloud students",
-    "Software graduates",
-    "Graduate tech roles",
-    "Junior developer roles",
+    "Frontend",
+    "Backend",
+    "Full-stack",
+    "Data & ML",
+    "DevOps / Cloud",
+    "Security",
+    "New grads",
+    "Career switchers"
 ];
 
 export function TrustSection() {
@@ -12,7 +14,7 @@ export function TrustSection() {
         <section className="px-5 py-5 sm:px-8 sm:py-15 lg:px-16">
             <div className="mx-auto max-w-7xl px-4 sm:px-12">
                 <p className="text-base font-semibold text-slate-700 px-4 py-2 sm:text-lg">
-                    Designed for Ireland-based early-career tech candidates
+                    Designed for tech job seekers at every stage
                 </p>
 
                 <div className="mt-10 flex flex-wrap gap-3 sm:gap-4">
